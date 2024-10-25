@@ -1,0 +1,35 @@
+body{
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+}
+#head{
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    
+}
+#parent{
+    width: 200px;
+    height: 700px;
+    margin-left: 20px;
+    display:inline-block;
+    padding-top: 20px;
+}
+#parent2{
+    width: 84.75%;
+    display: inline-block;
+    vertical-align: top;
+}
+#subparent2{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+}
+#subparent2a{
+    padding-left: 10px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
